@@ -8,6 +8,3 @@ include(Helpers)
 
 add_subdirectory(02_SOLID_Design_principles)
 
-#set(target_exe design_patterns_modern_cpp)
-#add_executable(${target_exe} main.cpp)
-#target_link_libraries(${target_exe} PUBLIC)
