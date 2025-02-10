@@ -1,0 +1,4 @@
+# 02_SOLID_Design_principles/CMakeLists.txt
+
+build_sample_boost(003_Single_Responsibility_Principle)
+
