@@ -6,5 +6,6 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/")
 include(Helpers)
 
-add_subdirectory(02_SOLID_Design_principles)
-add_subdirectory(03_Builder)
+#add_subdirectory(02_SOLID_Design_principles)
+#add_subdirectory(03_Builder)
+add_subdirectory(04_Factories)
