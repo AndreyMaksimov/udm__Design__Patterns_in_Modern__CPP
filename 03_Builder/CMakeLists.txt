@@ -3,3 +3,4 @@
 build_sample      (011_Life_Without_Builders)
 build_sample      (014_Groovy-Style_Builder)
 add_subdirectory  (015_Builder_Facets)
+build_sample      (901_Builder_Coding_Exercise)
