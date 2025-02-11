@@ -7,6 +7,10 @@
 #include <iostream>
 using namespace std;
 
+//
+// Task: https://www.udemy.com/course/patterns-cplusplus/learn/lecture/7736678?start=10#notes
+//
+
 enum class Color { red, green, blue };
 enum class Size { small, medium, large };
 
@@ -16,6 +20,10 @@ struct Product
   Color color;
   Size size;
 };
+
+//
+// Wrong approach https://www.udemy.com/course/patterns-cplusplus/learn/lecture/7736678?start=60#notes
+//
 
 struct ProductFilter
 {
@@ -48,6 +56,14 @@ struct ProductFilter
     return result;
   }
 };
+
+//
+// Better Solution: https://www.udemy.com/course/patterns-cplusplus/learn/lecture/7736678?start=290#notes
+//
+// That is “Specification Pattern”. See fully good implementation:
+// https://github.com/MericLuc/Design-patterns/tree/master/behavioral-patterns/specification-pattern
+// Implement boolean logic to check whether objects meet certain requirements.
+//
 
 template <typename T> struct AndSpecification;
 
