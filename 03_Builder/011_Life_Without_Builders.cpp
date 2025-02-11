@@ -76,24 +76,29 @@ struct HtmlBuilder
 
 int main()
 {
+  printf("Approach #1. Simple direct\n");
   // <p>hello</p>
   auto text = "hello";
   string output;
   output += "<p>";
   output += text;
   output += "</p>";
-  printf("<p>%s</p>", text);
+  printf("<p>%s</p>\n", text);
+  printf("\n");
 
   // <ul><li>hello</li><li>world</li></ul>
+  printf("Approach #2\n");
   string words[] = { "hello", "world" };
   ostringstream oss;
   oss << "<ul>";
   for (auto w : words)
     oss << "  <li>" << w << "</li>";
   oss << "</ul>";
-  printf(oss.str().c_str());
+  printf("%s\n", oss.str().c_str());
+  printf("\n");
 
   // easier
+  printf("Approach #3\n");
   HtmlBuilder builder{ "ul" };
   builder.add_child("li", "hello").add_child("li", "world");
   cout << builder.str() << endl;
