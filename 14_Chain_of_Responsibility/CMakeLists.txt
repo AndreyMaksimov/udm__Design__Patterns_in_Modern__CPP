@@ -1,3 +1,6 @@
 # 14_Chain_of_Responsibility/CMakeLists.txt
 
 build_sample(074_Pointer_Chain)
+build_sample(075_Broker_Chain)
+build_sample(076_Chain_of_Responsibility_Coding_Exercise)
+#build_sample(076_Chain_of_Responsibility_Coding_Exercise_Test)
