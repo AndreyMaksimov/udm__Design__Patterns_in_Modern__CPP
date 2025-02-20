@@ -3,3 +3,5 @@
 build_sample(078_Command)
 build_sample(079_Undo_Operations)
 build_sample(080_Composite_Command_Macro)
+build_sample(081_Command_Coding_Exercise)
+#build_sample(081_Command_Coding_Exercise_Test)
