@@ -2,3 +2,5 @@
 
 build_sample(088_Iterators_in_the_Standard_Library)
 build_sample(091_Boost_Iterator_Facade)
+build_sample(092_Iterator_Coding_Exercise.cpp)
+# build_sample(092_Iterator_Coding_Exercise_Test.cpp)
