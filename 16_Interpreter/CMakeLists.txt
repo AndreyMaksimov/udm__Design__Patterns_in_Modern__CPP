@@ -1,3 +1,5 @@
 # 16_Interpreter/CMakeLists.txt
 
 build_sample(084_Handmade_Interpreter)
+build_sample(086_Interpreter_Coding_Exercise)
+# build_sample(086_Interpreter_Coding_Exercise_Test)
