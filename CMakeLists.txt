@@ -3,8 +3,12 @@ project(design_patterns_modern_cpp)
 
 set(CMAKE_CXX_STANDARD 23)
 
+find_library(GTEST_LIB NAMES "gtest")
+
 set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/")
 include(Helpers)
+
+
 
 #add_subdirectory(02_SOLID_Design_principles)
 #add_subdirectory(03_Builder)
@@ -23,4 +27,5 @@ include(Helpers)
 #add_subdirectory(16_Interpreter)
 #add_subdirectory(17_Iterator)
 #add_subdirectory(18_Mediator)
-add_subdirectory(19_Memento)
+#add_subdirectory(19_Memento)
+add_subdirectory(20_Observer)
