@@ -1,0 +1,5 @@
+# 20_Observer/CMakeLists.txt
+
+add_subdirectory(103_Observer)
+build_sample(108_Observer_Coding_Exercise)
+build_sample(108_Observer_Coding_Exercise_Test)
