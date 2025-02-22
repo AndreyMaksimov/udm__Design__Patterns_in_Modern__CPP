@@ -15,6 +15,26 @@ Participant 2 broadcasts the value 2. We now have Participant 1 value = 2, Parti
 
 #if 1 // Solution
 
+#include <vector>
+using namespace std;
+
+struct IParticipant
+{
+    virtual void receive(int value) = 0;
+};
+
+struct Mediator
+{
+    vector<IParticipant*> participants;
+    void say_all(const IParticipant* from, int value) {
+        for (auto&& ip: participants) {
+            if (ip != from) {
+                ip->receive(value);
+            }
+        }
+    }
+};
+
 struct Participant : IParticipant
 {
     int value{0};
@@ -27,7 +47,11 @@ struct Participant : IParticipant
 
     void say(int value)
     {
-        // todo
+        mediator.say_all(this, value);
+    }
+
+    void receive(int value) {
+        this->value += value;
     }
 };
 
