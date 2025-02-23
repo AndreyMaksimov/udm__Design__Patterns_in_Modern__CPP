@@ -28,4 +28,6 @@ include(Helpers)
 #add_subdirectory(17_Iterator)
 #add_subdirectory(18_Mediator)
 #add_subdirectory(19_Memento)
-add_subdirectory(20_Observer)
+#add_subdirectory(20_Observer)
+add_subdirectory(21_State)
+
