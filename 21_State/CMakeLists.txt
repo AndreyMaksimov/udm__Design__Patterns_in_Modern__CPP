@@ -2,3 +2,4 @@
 
 build_sample(110_Classic_State_Implementation)
 build_sample(111_Handmade_State_Machine)
+build_sample(112_State_Machine_with_Boost)
