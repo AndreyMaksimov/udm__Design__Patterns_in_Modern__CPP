@@ -1,0 +1,6 @@
+# 22_Strategy/CMakeLists.txt
+
+build_sample(115_Dynamic_strategy)
+build_sample(116_Static_strategy)
+build_sample(117_Strategy_Coding_Exercise)
+build_sample(117_Strategy_Coding_Exercise_Test)
