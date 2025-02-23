@@ -43,13 +43,18 @@ struct TokenMachine
     // snapshot of the entire system
     Memento add_token(const shared_ptr<Token>& token)
     {
-        // todo
+        tokens.push_back(token);
+        Memento mem;
+        for (auto&& tk: tokens) { // deep copy
+            mem.tokens.push_back(make_shared<Token>(tk->value));
+        }
+        return mem;
     }
 
     // reverts the system to a state represented by the token
     void revert(const Memento& m)
     {
-        // todo
+        tokens = m.tokens;
     }
 };
 
