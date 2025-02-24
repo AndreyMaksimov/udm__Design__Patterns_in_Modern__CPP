@@ -1,0 +1,10 @@
+# 24_Visitor/CMakeLists.txt
+
+build_sample(122_Intrusive_Visitor)
+build_sample(123_Reflective_Visitor)
+build_sample(124_Classic_Visitor)
+build_sample(125_Acyclic_Visitor)
+build_sample(126_Multimethods)
+build_sample(127_Variant_and_std-visit)
+build_sample(128_Visitor_Coding_Exercise)
+build_sample(128_Visitor_Coding_Exercise_Test)
