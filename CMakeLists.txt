@@ -30,5 +30,5 @@ include(Helpers)
 #add_subdirectory(19_Memento)
 #add_subdirectory(20_Observer)
 #add_subdirectory(21_State)
-add_subdirectory(22_Strategy)
-
+#add_subdirectory(22_Strategy)
+add_subdirectory(23_Template_Method)

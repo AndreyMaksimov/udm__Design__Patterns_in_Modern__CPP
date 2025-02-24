@@ -1,0 +1,5 @@
+# 23_Template_Method/CMakeLists.txt
+
+build_sample(119_Template_Method)
+build_sample(120_Template_Method_Coding_Exercise)
+build_sample(120_Template_Method_Coding_Exercise_Test)
